@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hw" id="app">
+      <div class="task1">
+        <button @click="reverseBtnText" class="btn" style="margin: 100px">
+          {{ btnText }}
+        </button>
+      </div>
+      <div class="task2">
+        <button
+          @click="addElementUl(elementText)"
+          class="btn2"
+          style="margin: 100px"
+        >
+          {{ btn2Text }}
+        </button>
+        <ul class="list"></ul>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
